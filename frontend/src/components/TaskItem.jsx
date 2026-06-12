@@ -24,7 +24,7 @@ function TaskItem({
       duration-300
       "
     >
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-4 bg-white dark:bg-gray-800 rounded-xl shadow w-full">
 
         <input
           type="checkbox"
@@ -45,6 +45,7 @@ function TaskItem({
             rounded-xl
             px-3 py-2
             text-white
+            w-full sm:w-auto flex-1 min-w-0 border p-1 rounded
             "
           />
         ) : (
@@ -76,6 +77,7 @@ function TaskItem({
             text-black
             font-semibold
             rounded-xl
+            sm:flex-nowrap
             "
           >
             Save
