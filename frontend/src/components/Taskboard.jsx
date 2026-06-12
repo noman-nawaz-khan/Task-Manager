@@ -2,7 +2,7 @@ import TaskItem from "./TaskItem";
 
 function TaskBoard({ tasks, deleteTask, toggleTask, updateTask }) {
   return (
-    <div className="mt-6 space-y-3 sm:px-0 space-y-3 overflow-x-hidden">
+    <div className="mt-6 space-y-3 sm:px-0  overflow-x-hidden">
 
       {tasks.map(task => (
         <TaskItem
