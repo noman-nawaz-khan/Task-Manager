@@ -24,7 +24,7 @@ function TaskItem({
       duration-300
       "
     >
-      <div className="flex items-center gap-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-4 bg-white dark:bg-gray-800 rounded-xl shadow w-full">
+      <div className="flex items-center gap-4  flex-col sm:flex-row sm:items-center justify-between  p-4 dark:bg-gray-800 rounded-xl shadow w-full">
 
         <input
           type="checkbox"
