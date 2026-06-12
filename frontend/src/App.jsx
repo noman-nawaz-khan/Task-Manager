@@ -2,7 +2,7 @@ import { useState } from "react";
 import Sidebar from "./components/Sidebar";
 import Header from "./components/Header";
 import StatsCards from "./components/statsCard";
-import TaskBoard from "./components/TaskBoard";
+import TaskBoard from "./components/Taskboard";
 
 function App() {
   const [tasks, setTasks] = useState([]);
