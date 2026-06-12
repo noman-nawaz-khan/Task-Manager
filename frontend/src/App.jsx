@@ -51,9 +51,10 @@ function App() {
     <div
       className={`min-h-screen ${
         dark
-          ? "bg-gradient-to-br from-slate-950 via-slate-900 to-blue-950 text-white"
-          : "bg-slate-100 text-black"
-      }`,"flex flex-col md:flex-row min-h-screen overflow-x-hidden bg-slate-900"}
+          ? "bg-gradient-to-br from-slate-950 via-slate-900 to-blue-950 text-white flex flex-col md:flex-row min-h-screen overflow-x-hidden"
+          : "bg-slate-100 text-black flex flex-col md:flex-row min-h-screen overflow-x-hidden "
+      }`}
+      
     >
       <div className="flex">
         <Sidebar 
